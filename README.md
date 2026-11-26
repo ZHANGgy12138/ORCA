@@ -1,10 +1,12 @@
 # ORCA
 
+**简体中文** | [English](README_EN.md)
+
 ORCA 是面向 Windows 的 PDF 翻译与阅读工具。你可以批量翻译论文或书籍，导出译文或双语对照 PDF，也可以在阅读时选中一段文字查看译文。ORCA 使用 PDFMathTranslate Next 2.9.0 和 BabelDOC 0.6.2 在本机解析和排版文档。
 
 ## 下载和打开（Windows x64）
 
-1. 打开本仓库的 **Releases**，在 0.9.1 的 **Assets** 中下载 **`ORCA-0.9.1-windows-x64.zip`**。便携包已内置 Python。
+1. 打开本仓库的 [Releases](https://github.com/ZHANGgy12138/ORCA/releases)，在 0.9.1 的 **Assets** 中下载 **`ORCA-0.9.1-windows-x64.zip`**。便携包已内置 Python。
 2. 找到下载好的 ZIP 文件，**右键 → 全部解压缩**，等待解压完成。
 3. 从解压后的文件夹进入 **`ORCA`**，双击 **`ORCA.exe`**。程序和旁边的 **`_internal`** 文件夹需要放在一起。首次启动时，窗口会显示资源加载进度。
 
@@ -70,7 +72,7 @@ PDF 阅读组件随软件提供，阅读文件无需联网；翻译是否需要�
 
 偏好设置、最近任务和默认输出独立保存在 `%LOCALAPPDATA%/ORCA`，0.9.1 继续读取原来的数据；自选输出目录也不会随程序更换。未选择记住的 API 密钥仍需在新会话重新填写；已保存的密钥在同一台电脑、同一 Windows 用户下自动读取。确认新版正常后可自行清理旧的程序目录，保留文档和应用数据目录。
 
-新版本和更新说明可在本仓库的 **Releases** 中查看。
+新版本和更新说明可在本仓库的 [Releases](https://github.com/ZHANGgy12138/ORCA/releases) 中查看。
 
 ## 源码、修改与许可
 
